@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.banner img {
+    width: 400px;
+}
+
+.insta-logo {
+    width: 174px;
+    height: 53px;
+    margin-bottom: 20px;
+    padding-top: 35px;
+}
+
+.face-logo {
+    width: 5%;
+}
+
+.app-store {
+    width: 35%;
+}
+
+.google-play {
+    width: 35%;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    height: 655px;
+    margin: auto;
+    font-family: sans-serif;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 343px;
+    height: 37 0px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.126);
+    border-radius: 1px;
+
+}
+
+#login-box {
+text-align: center;
+}
+
+
+#login-box input {
+    width: 260px;
+    height: 36px;
+    margin-top: 5px;
+    text-indent: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.122);
+}
+
+#login-box input[type="password"] {
+    margin-bottom:10px ;
+}
+
+.caixa {
+    border-radius: 1px;
+    font-size: 12px;
+    background-color:#FAFAFA;
+}
+
+.btn {
+    background-color: #4CB5F9;
+    border: none;
+    padding: 5px;
+    color: white;
+    width: 250px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+
+.separator {
+    position: relative;
+}
+
+.line {
+    border-top: 1px solid rgba(0, 0, 0, 0.126);
+    width: 268px;
+    margin: 25px auto 35px;
+}
+
+.separator span {
+    position: absolute;
+    text-transform: uppercase;
+    color: #bbb;
+    background-color: white;
+    top:16px;
+    right:106px;
+    width: 60px;
+    text-align: center;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.543);
+    
+}
+
+
+.other-links a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #385185;
+    margin-bottom: 5px;
+}
+
+.entrar{
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+.esq{
+    font-size: 11px;
+    padding-top: 10px;
+
+}
+
+.cadastro {
+    height: 90px;
+    width: 364.6px;
+}
+
+.cadastro p {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.126);
+    font-size: 14px;
+    margin-top: 10px;
+    border-radius: 1px;
+
+}
+
+.cadastro p a {
+    text-decoration: none;
+    color: #4CB5F9;
+}
+
+.store {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 364.6px;
+    height: 80px;
+}
+
+.store p {
+    font-size: 14px;
+}
+
+.link-store {
+    display: inline-block;
+    text-align: center;
+}
+
+footer{
+    font-family: sans-serif;
+    color: #868585;
+}
+
+footer .f-links, footer p{
+    text-align: center;
+    font-size: 11px}
+
+.f-links a{
+    text-decoration: none;
+    margin: 10px;
+    color: #868585;
+}
+
+footer p{
+    margin: 20px;
+    margin-bottom: 60px;
+}
