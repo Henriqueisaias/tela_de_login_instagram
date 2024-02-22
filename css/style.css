@@ -8,6 +8,7 @@
 
 
 .banner img {
+    transition: 1s;
     width: 400px;
 }
 
@@ -31,14 +32,15 @@
 }
 
 main {
+    transition: 1s;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 800px;
-    height: 655px;
+    max-width: 800px;
+    max-height: 655px;
     margin: auto;
     font-family: sans-serif;
-
+    margin-top: 10px;
 }
 
 section {
@@ -181,8 +183,13 @@ text-align: center;
 }
 
 footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     font-family: sans-serif;
     color: #868585;
+    margin-top: 20px;
 }
 
 footer .f-links, footer p{
@@ -193,9 +200,25 @@ footer .f-links, footer p{
     text-decoration: none;
     margin: 10px;
     color: #868585;
+    
 }
 
 footer p{
     margin: 20px;
     margin-bottom: 60px;
+}
+
+@media screen and (max-width: 768px)
+{
+.banner{
+    display: none;
+}
+
+section{
+    margin: 0 auto;
+}
+
+.f-links a{
+    margin: 5px;
+}
 }
