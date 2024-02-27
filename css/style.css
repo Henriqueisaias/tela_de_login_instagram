@@ -88,13 +88,17 @@ text-align: center;
 .btn {
     background-color: #4CB5F9;
     border: none;
-    padding: 5px;
+    padding: 4px;
     color: white;
     width: 250px;
     border-radius: 10px;
     font-weight: bold;
 }
 
+.btn:hover{
+    background-color: #91c4e5;
+    cursor: pointer;
+}
 
 
 .separator {
